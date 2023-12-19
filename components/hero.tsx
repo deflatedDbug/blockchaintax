@@ -18,7 +18,7 @@ export default function Hero() {
         className="flex items-center justify-center text-center text-white"
       >
         <div>
-          <h1 className="text-4xl font-bold mb-3">I'm Hee Jung Lebow</h1>
+          <h1 className="text-4xl font-bold mb-3">I&apos;m Hee Jung Lebow</h1>
           <p className="text-xl mb-5"> 
           A {" "}
           <span className="font-semibold">Tax Professional</span> that <span className="underline"> You can Trust</span>
