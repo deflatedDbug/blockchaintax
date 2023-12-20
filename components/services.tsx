@@ -7,7 +7,7 @@ export default function Services() {
       <header className="font-semibold text-3xl text-center mb-10">
         Small Business Services
       </header>
-      <div className="flex flex-wrap flex-row justify-around">
+      <div className="flex flex-col md:flex-row justify-around m-auto w-auto">
         <div className="">
         <Image 
         src="/tax.png"
@@ -29,7 +29,7 @@ export default function Services() {
         width={100}
         height={100} 
         alt="Tax E-Filing Icon"
-        className="pb-8"
+        className="pb-8 mt-10"
         />
           <h3 className="mb-2 underline text-xl">Management</h3>
           <p className="max-w-sm mx-auto pb-4">
@@ -46,7 +46,7 @@ export default function Services() {
         width={100}
         height={100} 
         alt="Tax E-Filing Icon"
-        className="pb-8"
+        className="pb-8 mt-10"
         />
           <h3 className="mb-2 underline text-xl">Advisory</h3>
           <p className="max-w-sm mx-auto">
