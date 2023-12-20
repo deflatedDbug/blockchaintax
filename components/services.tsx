@@ -7,7 +7,7 @@ export default function Services() {
       <header className="font-semibold text-3xl text-center mb-10">
         Small Business Services
       </header>
-      <div className="flex flex-row justify-around">
+      <div className="flex flex-wrap flex-row justify-around">
         <div className="">
         <Image 
         src="/tax.png"
