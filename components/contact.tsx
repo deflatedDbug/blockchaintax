@@ -9,7 +9,7 @@ export default function ContactForm() {
           <div className="text-white mb-8 md:mb-0">
             <div className="mb-4">
               <h2 className="text-2xl font-semibold">Virtual Offices:</h2>
-              <p>7918 Jones Branch Dr Mclean VA 2210</p>
+              <p>7918 Jones Branch Dr Mclean VA 22102</p>
               <p>28 Schenck Pkwy, Asheville, NC 28803</p>
             </div>
             <div className="mb-4">
@@ -62,7 +62,6 @@ export default function ContactForm() {
               <textarea
                 placeholder="Write us a message"
                 className="border-2 w-full rounded p-2"
-                rows="4"
                 required
               ></textarea>
             </div>
