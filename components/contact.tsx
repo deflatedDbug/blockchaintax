@@ -3,19 +3,19 @@ import React from "react";
 export default function ContactForm() {
   return (
     <div className="bg-[#28282B] min-h-screen py-4">
-        <h1 className="text-center text-white text-3xl md:text-4xl font-bold">Contact Me</h1>
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col md:flex-row justify-around items-start">
           <div className="text-white mb-8 md:mb-0">
+          <h1 className="text-white text-3xl md:text-4xl font-bold mb-8 underline">Contact Me</h1>
             <div className="mb-4">
               <h2 className="text-2xl font-semibold">Virtual Offices:</h2>
-              <p>7918 Jones Branch Dr Mclean VA 22102</p>
-              <p>28 Schenck Pkwy, Asheville, NC 28803</p>
-              <p>2730 N. Berkeley Lake Rd, Duluth, GA 30096</p>
+              <p className="">7918 Jones Branch Dr Mclean VA 22102</p>
+              <p className="">28 Schenck Pkwy, Asheville, NC 28803</p>
+              <p className="">2730 N. Berkeley Lake Rd, Duluth, GA 30096</p>
             </div>
             <div className="mb-4">
-              <h2 className="text-2xl font-semibold">Phone Number:</h2>
-              <p>571-567-4300</p>
+              <h2 className="text-2xl font-semibold ">Phone Number:</h2>
+              <p >571-567-4300</p>
             </div>
             <div className="mb-4">
               <h2 className="text-2xl font-semibold">Contact Email:</h2>

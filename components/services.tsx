@@ -8,7 +8,7 @@ export default function Services() {
           SMALL BUSINESS SERVICES
         </h1>
         {/* Single grid container for all services */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-screen-xl mx-auto px-4 text-xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:max-w-screen-xl mx-auto px-5 text-xl">
           {/* Service 1 */}
           <div className="border bg-white text-gray-600 p-6 rounded-lg shadow-md md:hover:scale-110">
             <h2 className="font-bold text-xl mb-4 text-center underline">Tax E-Filing</h2>
