@@ -25,7 +25,7 @@ export default function Hero() {
             <span className="font-bold underline">Tax Consultation</span>
           </p>
           <button
-            className="bg-[#28282B] hover:opacity-80 text-white font-bold py-4 px-8 rounded"
+            className="bg-[#28282B] text-white font-bold py-4 px-8 rounded hover:scale-110"
             onClick={handleClick}
           >
             BOOK TODAY
