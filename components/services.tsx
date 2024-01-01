@@ -4,13 +4,13 @@ export default function Services() {
   return (
     <section id="services" className="bg-[#28282B] text-white py-20">
       <header className="mb-10 ">
-        <h1 className="font-bold text-5xl text-center mb-8">
+        <h1 className="font-bold text-3xl md:text-5xl text-center mb-8">
           SMALL BUSINESS SERVICES
         </h1>
         {/* Single grid container for all services */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-screen-xl mx-auto px-4 text-xl">
           {/* Service 1 */}
-          <div className="border bg-white text-gray-600 p-6 rounded-lg shadow-md hover:scale-110">
+          <div className="border bg-white text-gray-600 p-6 rounded-lg shadow-md md:hover:scale-110">
             <h2 className="font-bold text-xl mb-4 text-center underline">Tax E-Filing</h2>
             <li>
               <span className="font-bold">Taxes:</span> Personal, Business,
@@ -22,7 +22,7 @@ export default function Services() {
             </li>
           </div>
           {/* Service 2 */}
-          <div className="border bg-white text-gray-600 p-6 rounded-lg shadow-md hover:scale-110">
+          <div className="border bg-white text-gray-600 p-6 rounded-lg shadow-md md:hover:scale-110">
             <h2 className="font-bold text-xl mb-4 text-center underline">Management</h2>
             <li>
               <span className="font-bold">Tax Planning:</span> How to Report and Save on Taxes
@@ -39,7 +39,7 @@ export default function Services() {
           </div>
 
           {/* Service 3 */}
-          <div className="border bg-white text-gray-600 p-6 rounded-lg shadow-md hover:scale-110">
+          <div className="border bg-white text-gray-600 p-6 rounded-lg shadow-md md:hover:scale-110">
             <h2 className="font-bold text-xl mb-4 text-center underline">Advisory</h2>
             <li>
               <span className="font-bold"> Tax Consulting:</span> How to grow
