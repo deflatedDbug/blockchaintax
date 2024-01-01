@@ -13,7 +13,7 @@ export default function ContactForm() {
               <p>28 Schenck Pkwy, Asheville, NC 28803</p>
             </div>
             <div className="mb-4">
-              <h2 className="text-2xl font-semibold">Let's Talk:</h2>
+              <h2 className="text-2xl font-semibold">Phone Number:</h2>
               <p>571-567-4300</p>
             </div>
             <div className="mb-4">
