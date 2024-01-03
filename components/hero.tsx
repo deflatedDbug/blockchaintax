@@ -3,10 +3,10 @@ import React from "react";
 
 export default function Hero() {
   const handleClick = () => {
-    window.open("https://calendly.com/subinlebow");
+    window.open("https://calendly.com/lebowconsulting/free-tax-consultation");
   };
   return (
-    <section id="/">
+    <section id="#home">
       <div
         style={{
           backgroundImage: `url('/hero.jpg')`, // Corrected image path
