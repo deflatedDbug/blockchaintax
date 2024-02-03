@@ -1,3 +1,4 @@
+import { FastForwardOutlined } from "@mui/icons-material";
 import React from "react";
 
 export default function About() {
@@ -9,7 +10,7 @@ export default function About() {
           I am a <span className="font-bold"> tax accountant</span> assisting{" "}
           <span className="italic">individuals </span> and{" "}
           <span className="italic">companies</span> with{" "}
-          <span className="underline">tax matters</span>. Now, with the advent
+          <span className="underline">tax matters</span>. <br /> With the advent
           of{" "}
           <span className="font-bold">
             cryptocurrency, blockchain technology
@@ -24,3 +25,4 @@ export default function About() {
     </section>
   );
 }
+FastForwardOutlined
