@@ -12,43 +12,43 @@ export default function Services() {
           {/* Service 1 */}
           <div className="border bg-white text-gray-600 p-6 rounded-lg shadow-md duration-300 md:hover:scale-110">
             <h2 className="font-bold text-xl mb-4 text-center underline">Tax E-Filing</h2>
-            <li>
+           
               <span className="font-bold">Taxes:</span> Personal, Business,
               Corporate, and Trust
-            </li>
-            <li>
+            
+            <br />
               <span className="font-bold">Specialty: </span>Filing Crypto
               Transactions (airdrops, conversions, rewards, swaps, transfers, NFTs)
-            </li>
+          
           </div>
           {/* Service 2 */}
           <div className="border bg-white text-gray-600 p-6 rounded-lg shadow-md duration-300 md:hover:scale-110">
             <h2 className="font-bold text-xl mb-4 text-center underline">Management</h2>
-            <li>
+            
               <span className="font-bold">Tax Planning:</span> How to Report and Save on Taxes
-            </li>
-            <li>
+            
+            <br />
               <span className="font-bold"> Tax Resolution:</span> OIC,
               Delinquent Tax Returns, Innocent Spouse Relief, IRS Appeals and
               Penalty Abatement
-            </li>
-            <li>
+            
+            <br />
               <span className="font-bold"> IRA Planning: </span> The Bucket Plan
               (Jason L. Smith), In Collaboration with Infinity Wealth Management
-            </li>
+            
           </div>
 
           {/* Service 3 */}
           <div className="border bg-white text-gray-600 p-6 rounded-lg shadow-md duration-300 md:hover:scale-110">
             <h2 className="font-bold text-xl mb-4 text-center underline">Advisory</h2>
-            <li>
+            
               <span className="font-bold"> Tax Consulting:</span> How to grow
               your Tax Free Assets (Crypto Related Retirement Accounts)
-            </li>
-            <li>
+            <br />
+            
               <span className="font-bold">Expertise:</span> Income tax return, Tax
               Service, Crypto Tax
-            </li>
+            
           </div>
         </div>
       </header>
